@@ -1,6 +1,6 @@
-# lexus_description.iv
+# Sparrow_description.iv
 
 this packages has following packages
 
-- lexus_description
-- lexus_launch
+- sparrow_description
+- sparrow_launch
