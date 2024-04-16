@@ -1,7 +1,7 @@
 <launch>
   <arg name="vehicle_id" default="$(env VEHICLE_ID default)"/>
-  <arg name="left_serial_port" default="/dev/ttyUSB1"/>
-  <arg name="right_serial_port" default="/dev/ttyUSB2"/>
+  <arg name="left_serial_port" default="/dev/left_motor_controller"/>
+  <arg name="right_serial_port" default="/dev/right_motor_controller"/>
  
   <include file="$(find-pkg-share roboteq_interface)/launch/roboteq_interface.launch.xml" >
     <arg name="vehicle_id" value="$(var vehicle_id)"/>
