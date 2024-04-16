@@ -9,4 +9,4 @@
     left_overhang: 0.075 # between left wheel center and vehicle left
     right_overhang: 0.075 # between right wheel center and vehicle right
     vehicle_height: 1.095 # vehicle height + sensor_kit height
-    max_steer_angle: 360.0 # [rad]
+    max_steer_angle: 3.14 # [rad]
